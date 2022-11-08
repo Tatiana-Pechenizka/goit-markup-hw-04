@@ -56,7 +56,6 @@ body {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-  outline: 2px solid aquamarine;
 }
 
 .section {
@@ -172,10 +171,22 @@ body {
   padding-bottom: 200px;
 
   background-color: var(--secondary-bg-color);
+   max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-hero.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
 
 .hero-container {
   align-items: center;
+
+ 
+
 }
 
 .hero-title {
